@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 export const Home: FC = memo(() => {
   const navigate = useNavigate();
   const onClickFetchCheck = useCallback(() => {
-    navigate("/graphFetch");
+    navigate("/fetch");
   }, [navigate]);
   return (
     <>

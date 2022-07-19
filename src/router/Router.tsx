@@ -8,7 +8,7 @@ export const Router: FC = memo(() => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/graphFetch" element={<GraphQLFetch />} />
+        <Route path="/fetch" element={<GraphQLFetch />} />
       </Routes>
     </BrowserRouter>
   );
